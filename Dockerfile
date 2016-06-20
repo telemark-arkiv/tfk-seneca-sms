@@ -28,8 +28,8 @@ WORKDIR "/src"
 RUN npm install --production
 
 # Env variables
-ENV TFK_SENECA_SMS_TAG tfk-seneca-queue
-ENV TFK_SENECA_SMS_URL https://queue.no
+ENV TFK_SENECA_SMS_TAG tfk-seneca-sms
+ENV TFK_SENECA_SMS_URL https://sms.no
 ENV TFK_SENECA_SMS_HOST localhost
 ENV TFK_SENECA_SMS_PORT 8000
 ENV TFK_SENECA_SMS_USERNAME username
